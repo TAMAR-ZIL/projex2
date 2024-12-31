@@ -94,7 +94,7 @@ export default function Form() {
           </label>
         </div>
 
-        {/* שדה להזנת מספר חדרים */}
+        {/* שדה להזנת מספר החדרים */}
         <TextField
           label="Rooms"
           type="number"
