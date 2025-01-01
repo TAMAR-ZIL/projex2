@@ -4,7 +4,7 @@ import TextField from "@mui/material/TextField"; // רכיב של MUI לטקסט
 import Autocomplete from "@mui/material/Autocomplete"; // רכיב של MUI לחיפוש עם השלמה אוטומטית
 import { MapContainer, TileLayer, useMap, Marker } from "react-leaflet"; // רכיבים של React Leaflet למפות
 import "./index.css"; // ייבוא קובץ CSS לעיצוב
-
+import "leaflet/dist/leaflet.css"
 // רכיב שמעדכן את המיקום של המפה בהתאם לקואורדינטות חדשות
 function SetViewOnChange({ coords }) {
   const map = useMap(); // גישה לאובייקט המפה
